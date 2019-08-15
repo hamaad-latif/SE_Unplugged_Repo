@@ -13,7 +13,7 @@ def generateRandomData(range):
         'Results_Before':['P', 'F'],
         'Results_After': ['P', 'F'],
     }
-# Creating CSV file    
+# Creating CSV file
     with open('random_dataset.csv', 'a', newline='') as csv_file:
         for i in range(range):
             Age = generator(dict['Age'])
